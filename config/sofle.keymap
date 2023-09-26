@@ -9,14 +9,14 @@
 #include <dt-bindings/zmk/bt.h>
 
 &led_strip {
-    chain-length = <21>;
+    chain-length = <35>;
 };
 
 / {
       chosen {
         zmk,underglow = &led_strip;
     };
-    
+
     keymap {
         compatible = "zmk,keymap";
 
